@@ -42,9 +42,15 @@ public class Main {
             }
         }
 
-//        //문제 3번
-//        System.out.println();
-//        System.out.println("==문제 3번 실행==");
+        //문제 3번
+        System.out.println();
+        System.out.println("==문제 3번 실행==");
+        System.out.println("정수 10개의 피보나치 수열 숫자를 출력합니다.");
+        Question3.solution();
 
+        System.out.println();
+        System.out.println("==실행을 종료합니다==");
+
+        sc.close();
     }
 }

@@ -5,8 +5,13 @@ package org.koreait;
 //Scanner 활용
 //중첩반복문을 활용
 
+import java.util.InputMismatchException;
+
 public class Question1 {
     static void solution(int width, int height) {
+
+        if (width <= 0 || height <= 0) throw new InputMismatchException();
+
         for (int i = 0; i < height; i++) { //줄 수
             for (int j = 0; j < width; j++) { //별 수
                 System.out.print("*");
